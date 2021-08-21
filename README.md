@@ -4,10 +4,14 @@ This is my own linux kde plasma quick configurations. Kde is a nice desktop choi
 ## English
 **This is a configuration guidance if you are using kde as linux desktop solution. It's personal, not granted for anything like speed or fluency.** This part is more about apperance. Steps are as follows.
 * Font. Configure font in **System Settings > Apperance > Fonts**(In different linux distributions, you may use different global configurations. For example, in Manjaro, use `/etc/fonts/local.conf` or `/etc/fonts/conf.d/*` to make a personal configuration. But here, System Settings is just a convenient, quick and visual choice.)
+
 ![](screenshots/fonts.png)
+
 **Adjust the font size and specific font type according to your own screen. I am using 16 for 1920x1080. And for different screen, try SF Pro Display, SF Pro Text, SF UI Display and SF UI Text one by one. Notice if you are using Font with Chinese characters, the Latin characters can be too flat to display. Also notice use anti-alias and adjust a appropriate DPI to have a nice interface.**
 
 **FONT DISPLAY IS EXTREMELY IMPORTANT. PAY ATTENTION AND WORK ON IT.**
+
+
 The names of the fonts are:
     * San Francisco Display Medium (replacements: SF Pro Display, SF UI Text)
     * Sarasa Gothic K
