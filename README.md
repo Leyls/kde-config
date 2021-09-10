@@ -53,6 +53,8 @@ The names of the fonts are:
   * Bottom panel height **82**. Add **Icon Only Task Manager**. Add two **Panel Spacer** to make task manager be the middle. Order: Panel Spacer + Icon Only Task Manager + Panel Spacer. Make panel **Auto-Hide**.
   * Top panel height **32**. **Application Menu + Global Menu + Panel Spacer + Search + Networks + Battery + Digital Clock (Fuzzy Clock)**. 
 
+If you want to use **kvantum**, it is fine. The appealing part of macos is systematicism. The color, the control and simple human-machine interaction rules contribute to the classic and seamlessly enternal paramount guidelines. Kvantum can make your desktop much more systematic than using only settings. The best theme for kvatum is **WhiteSur**. Some unharmonic parts are mostly caused by GTK window. Use **Bigsur-Original-Blue** may make it less painful.
+
 ## 繁體中文
 
 主要來說，配置字體最麻煩的是中文字體顯示，所以這部分使用中文。按照上述的英文字體方案，安裝完全部字體後，中文字體推薦使用兩種字體，分別是 PingFang SC 和 Sarasa Gothic K（Sarasa 更紗黑體有很多類型，這裏的 Gothic K 屬於中等間距而且英文顯示尚可）。一般字體分爲拉丁字符和非拉丁字符。除去部分語言，例如泰語，阿拉伯文或者一些東南亞小國非洲語言（這些語言結構特殊，非漢字結構字符，而日文，簡體，繁體均屬於漢字結構），可以使用的字體配置如下：
