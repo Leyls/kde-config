@@ -1,10 +1,10 @@
 # kDe cOnfIg
 
-This is my own linux kde plasma quick configurations. Kde is a nice desktop choice which has various fabulous styles. This document has many languages but it's a whole document that's not separated by languages.
+This is my own linux kde plasma quick configurations. Kde is a nice desktop choice which has various fabulous styles. This document has many languages but it's a whole document. Don't feel separated by languages. As we are all human beings.
 
-給出的字體文件之保留作爲自己方便遷移環境時候下載。之後如果有能力將擴展更多語言作爲文檔語言。作爲系統發行版本選擇，Manjaro 個人認爲比 openSUSE 更加方便使用。AUR 軟件源十分豐富而且速度很快（也可能是配置了鏡像的作用），不需要像 zypper 每次安裝都要加載刷新已經存在的源很慢（這裏還包括遍歷文件系統速度，但是總的來說，openSUSE 限制更多，更加穩定，各種細節很落實）。
+給出的字體文件之保留作爲自己方便遷移環境時候下載。之後如果有能力將擴展更多語言作爲文檔語言。作爲系統發行版本選擇，Manjaro 個人認爲比 openSUSE 更加方便使用。AUR 軟件源十分豐富而且速度很快（也可能是配置了鏡像的作用），不需要像 zypper 每次安裝都要加載刷新已經存在的源很慢（這裏還包括遍歷文件系統速度，但是總的來說，openSUSE 限制更多，***更加穩定***，各種細節很落實）。
 
-Mein name ist Leyls. Sehr danke!
+Mein name ist Leyls. Sehr danke.
 
 ## English
 
@@ -68,7 +68,9 @@ If you want to use **kvantum**, it is fine. The appealing part of macos is syste
 下面是其他主題/配色或者輸入法配置，顏色配置具有很多原則，參見 `colors` 文件夾。
 
 * Kate 的配色方案。參見附件 `Nat.theme`。在 Kate 中 Configure Kate 然後在 Color Theme 中導入該配色配置文件即可。字體選擇 Monaco 17 或者 Monaco 16。一般其他插件需要安裝或者顯示 File System Browser, Preview。
-* 輸入法配置。請安裝使用 Fcitx。然後安裝 fcitx-rime。附件給出的 `rime` 文件夾應該放在 `~/.config/fcitx/` 目錄下。注意主題配置文件不在此目錄，配置主題和部分設置例如快捷鍵（這裏推薦使用 Alt-Space ）可以使用 fcitx-configtool（需要單獨安裝）。
+* 輸入法配置。請安裝使用 Fcitx5。注意一定是安裝 5，默認沒有版本標號的是 4。安裝完 5 版本後，再安裝 fcitx5-rime。附件給出的 `rime` 文件夾應該放在 `~/.config/fcitx/` 目錄下。注意主題配置文件不在此目錄，配置主題和部分設置例如快捷鍵（這裏推薦使用 Alt-Space ）可以使用 fcitx5-configuration（需要單獨安裝）。可以在默認已經存在的主題上修改，其中有一項 `input panel blur` 設置到最大可以實現半透亮 translucent 的效果。
+<p align="center"><img src="screenshots/fcitx5-blur.png"  height="320"></p>
+<p align="center"><img src="screenshots/fcitx5-input.png"  height="320"></p>
 * visual studio code 配置。該文本編輯器使用較少，但是功能很多。配色主題使用 Brackets Light Pro，字體使用 Monaco 和 PingFang SC。文件圖標和其他圖標使用 Fluent Icon/UI。安裝 code runner， 在設置中配置 run in terminal。也可以安裝 `emacs` 插件使用 emacs 快捷鍵。
 * emacs 配置。參見 `emacs` 文件夾，使用更紗黑體作爲中文字體。主題文件可以參見 `Themes/cloud-theme.el` 文件夾。另外，dired 默認顏色不適合淺色主體，所以要自己設置顏色。`M-x customize-face` 然後搜索 `dired`，對顯示的結果按照描述選擇合適顏色即可。最完美的兩種顏色是 `Royal Blue` 和 `Dodger Blue`。配置也可以使用 `emacs` 目錄下的 `custom.el`。
 * zsh，可以通過 `prezto` 這個配置框架。然後主體選擇 `powerlevel10k`，這個主體進入後可以大量進行定製，定製文件僞 `.p.zsh`。推薦在終端使用路徑縮短，否則長路徑會很佔用命令行長度。
